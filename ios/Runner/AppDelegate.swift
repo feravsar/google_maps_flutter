@@ -9,7 +9,7 @@ import Flutter
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
     // TODO: Add your Google Maps API key
-    GMSServices.provideAPIKey("AIzaSyBHTIP2dof4GXU04JakIRYo-Szr8RlReLk")
+    GMSServices.provideAPIKey("API-KEY-HERE")
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
